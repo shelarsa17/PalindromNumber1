@@ -12,6 +12,7 @@ public class Test {
 		int a=number;
 		int temp;
 		int z = 0;
+		System.out.println("This is Palindrome Number Program");
 		while (number > 0) {
 			temp = number % 10;
 			z = (z * 10) + temp;
